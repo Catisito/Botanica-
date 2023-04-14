@@ -28,3 +28,34 @@ header div{
     font-size: 2em;
     font-family: 'DynaPuff', cursive;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    text-align: center;
+    justify-content: center;
+    background-image: url(./img/jardin\ botanico.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.container h2{
+    font-size: 4em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container h3{
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container2{
+    margin: 10px;
+    display: flex;
+    height: 70vh;
+}
