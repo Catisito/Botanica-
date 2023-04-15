@@ -146,3 +146,25 @@ header div{
     color: white;
     font-size: 0,9em;
 }
+
+.container4{
+    text-align: center;
+    height: 68.2vh;
+    background-image: url(./img/sakura.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container4 h2{
+    padding: 50px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.container4 p{
+    font-size: 1.2em;
+    font-weight: bold;
+}
