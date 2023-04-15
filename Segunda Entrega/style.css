@@ -155,6 +155,7 @@ header div{
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     color: #fff;
 }
 
@@ -167,4 +168,8 @@ header div{
 .container4 p{
     font-size: 1.2em;
     font-weight: bold;
+}
+
+.container4{
+    display: grid;
 }
