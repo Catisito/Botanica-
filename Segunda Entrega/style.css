@@ -293,4 +293,58 @@ header div{
     font-size: 1em;
 }
 
+.carousel-item{
+    height: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+.carousel-item img{
+    filter: brightness(50%);
+    height: 300px;
+}
+
+.container7{
+    font-family: 'Alkatra', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #d1929b;
+}
+
+.container7 a{
+    font-size: 0.8em;
+    padding: 5px;
+    
+}
+
+.titulo2{
+    background-color: #d1929b;
+    font-family: 'Alkatra', cursive;
+    display: flex;
+    height: 15vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo2 h4{
+    font-size: 1.8em;
+}
+
+.envio{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7em;
+    padding: 10px;
+}
+
+.elEnvio{
+    font-size: 0.8em;
+    color: rgba(0,0,0,.5);
+}
+
+
 
