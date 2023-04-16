@@ -373,7 +373,7 @@ header div{
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: solid red 1px;
+    border: solid #d3adb3 3px;
     height: 650px;
     width: 360px;
     margin: 50px;
