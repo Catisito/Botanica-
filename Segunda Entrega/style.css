@@ -384,6 +384,7 @@ header div{
 }
 
 .container8 .envios_pais{
+    padding: 10px;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 0.8em;
@@ -397,7 +398,19 @@ header div{
     color: #4f772d;
 }
 
+.container8 button{
+    background-color:  #da929e;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    width: 180px;
+    height: 70px;
+    border-radius: 6px;
+}
 
+.container8 button:hover{
+    background-color: #ac737c;
+}
 
 .list_style{
     text-align: start;
