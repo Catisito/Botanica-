@@ -350,6 +350,15 @@ header div{
     color: rgba(0,0,0,.5);
 }
 
+.titulo_tienda{
+    font-family: 'Alkatra', cursive;
+    font-size: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcad4;
+}
+
 .grid_layaout1{
     display: grid;
     justify-content: center;
