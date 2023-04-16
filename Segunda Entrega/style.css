@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -348,6 +349,67 @@ header div{
     font-size: 0.8em;
     color: rgba(0,0,0,.5);
 }
+
+.grid_layaout1{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffcad4;
+    padding: 50px;
+}
+
+.container8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: solid red 1px;
+    height: 650px;
+    width: 360px;
+    margin: 50px;
+}
+
+.parrafo_tienda{
+    padding: 5px;
+    text-align: start;
+}
+
+
+
+.container8 h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.container8 .envios_pais{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 0.8em;
+    color: #272d30;
+}
+
+.container8 span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #4f772d;
+}
+
+
+
+.list_style{
+    text-align: start;
+    list-style: inside;
+}
+
+.imagen_caja1{
+    font-family: 'DynaPuff', cursive;
+    width: 280px;
+    height: 200px;
+}
+
 
 
 
