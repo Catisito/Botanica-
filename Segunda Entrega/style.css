@@ -309,28 +309,31 @@ header div{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
-    background-color: #d1929b;
+    background-color: #385738;
 }
 
 .container7 a{
     font-size: 0.8em;
-    padding: 5px;
-    
+    margin: 5px;
+    color: #272d30;
+}
+
+.container7 a:hover{
+    color: #1e2325;
 }
 
 .titulo2{
-    background-color: #d1929b;
+    background-color: #385738;
     font-family: 'Alkatra', cursive;
     display: flex;
-    height: 15vh;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
 .titulo2 h4{
-    font-size: 1.8em;
+    padding: 4px;
+    font-size: 1.6em;
 }
 
 .envio{
