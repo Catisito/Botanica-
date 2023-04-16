@@ -234,6 +234,10 @@ header div{
     text-align: center;
 }
 
+.container5 img{
+    padding: 10px;
+}
+
 .container5 h3{
     padding: 25px;
     font-size: 1.4em;
@@ -242,6 +246,7 @@ header div{
 }
 
 .container5 span{
+    padding: 10px;
     font-family: 'Brygada 1918', serif;
     font-size: 1.2em;
 }
