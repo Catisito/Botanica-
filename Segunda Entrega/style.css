@@ -31,23 +31,26 @@ header div{
     background-color: #f1faee;
 }
 
+.container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    background-image: url(./img/pexels-luis-dalvan-1770809.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: column;
+    height: 70vh;
+    text-align: center;
+    justify-content: center;
+}
+
 .title{
     font-size: 2em;
     font-family: 'DynaPuff', cursive;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    height: 70vh;
-    text-align: center;
-    justify-content: center;
-    background-image: url(./img/jardin\ botanico.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    
-}
+
 
 .container h2{
     font-size: 4em;
@@ -607,7 +610,6 @@ header div{
     font-size: 1em;
     height: 50px;
     padding: 15px;
-    
     flex-wrap: wrap;
 }
 
@@ -617,5 +619,12 @@ header div{
     color: rgb(255, 255, 255);
 }
 
-
+@media screen and (min-width: 768px) {
+    main{
+        font-size: 1.4em;
+    }
+    .container{
+        height: 100vh;
+    }
+}
 
