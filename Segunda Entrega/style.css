@@ -433,6 +433,44 @@ header div{
     height: 200px;
 }
 
+.container9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 55vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-image: url(./img/pexels-andre-furtado-1264210.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container9 button{
+    border: none;
+    background-color: #da929e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    margin: 30px;
+    height: 50px;
+    width: 130px;
+}
+
+.container9 button:hover{
+    background-color: #c07f8a;
+}
+
+.container9 h2{
+    font-size: 3em;
+}
+
+.container9 h3{
+    font-size: 1.7em;
+}
+
+
 
 
 
