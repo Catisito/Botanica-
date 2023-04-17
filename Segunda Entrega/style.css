@@ -481,6 +481,7 @@ header div{
     background-color: #da929e;
 }
 
+
 .container10 h4{
     font-size: 2em;
 }
@@ -489,6 +490,30 @@ header div{
     font-size: 1.5em;
 }
 
+.container11{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-image: url(./img/pajaros-wallaper.jfif);
+    background-position: center;
+    padding: 0px;
+    color: white;
+}
+
+.container11 h4{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container11 p{
+    margin: 10px;
+    font-size: 1em;
+}
 
 
 
