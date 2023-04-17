@@ -524,7 +524,7 @@ header div{
 
 .container12{
     display: grid;
-    height: 80vh;
+    height: 40vh;
     display: flex;
     margin: 5px;
     margin-top: 40px;
@@ -551,10 +551,15 @@ header div{
     width: 300px;
 }
 
+.container12 h5{
+    font-size: 1.5em;
+}
+
 .titulo_pajaros{
     font-size: 2em;
     font-family: 'Alkatra', cursive;
-    background-color: #a2d2ff;
+    background-color: #da929e;
+    font-size: 2.3em;
     height: 20vh;
     display: flex;
     align-items: center;
