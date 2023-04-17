@@ -587,5 +587,30 @@ header div{
     padding: 10px;
 }
 
+.transportes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fd9dae;
+}
+
+.transporte i{
+    display: flex;
+    align-items: baseline;
+    font-size: 1em;
+    height: 50px;
+    padding: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.transportes span{
+    flex-direction: row;
+    border: solid 1px #a1636f;
+}
+
 
 
