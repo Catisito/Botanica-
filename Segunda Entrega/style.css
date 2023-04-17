@@ -574,7 +574,6 @@ header div{
     background-size: cover;
     background-position: center;
     display: flex;
-    height: 45vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -608,12 +607,12 @@ header div{
     font-size: 1em;
     height: 50px;
     padding: 15px;
-    flex-direction: row;
+    
     flex-wrap: wrap;
 }
 
 .transportes span{
-    flex-direction: row;
+    
     border: solid 1px #a1636f;
     color: rgb(255, 255, 255);
 }
