@@ -626,5 +626,16 @@ header div{
     .container{
         height: 100vh;
     }
+
+    .container2{
+        text-align: center;
+        height: 200vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container2 h2{
+
+    }
 }
 
