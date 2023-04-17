@@ -33,17 +33,35 @@ header div{
 
 .container{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.3);
-    background-blend-mode: multiply;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
     background-image: url(./img/pexels-luis-dalvan-1770809.jpg);
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
-    flex-direction: column;
-    height: 70vh;
-    text-align: center;
-    justify-content: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.container button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #d1929b;
+}
+
+.container button:hover{
+    background-color: #a5727a;
+}
+
+.container h2{
+    font-size: 3em;
+}
+
+.container p{
+    font-size: 1.2em;
 }
 
 .title{
@@ -54,9 +72,7 @@ header div{
 
 
 .container h2{
-    font-size: 4em;
-    font-weight: bold;
-    color: #fff;
+   
 }
 
 .container h3{
@@ -555,7 +571,17 @@ header div{
         font-size: 1.4em;
     }
     .container{
-        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 83.7vh;
+        
+    }
+
+    .container button{
+        width: 200px;
+        height: 70px;
     }
 
     .container2{
