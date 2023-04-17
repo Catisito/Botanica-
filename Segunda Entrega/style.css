@@ -36,6 +36,7 @@ header div{
     background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: multiply;
     background-image: url(./img/pexels-luis-dalvan-1770809.jpg);
+    width: 100%;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -64,77 +65,7 @@ header div{
     color: #fff;
 }
 
-.container2{
-    background-image: url(./img/naturaleza1.jpg);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    height: 90vh;
-}
 
-.container2 h4{
-    font-family: 'Alkatra', cursive;
-    border: #fff solid 4px;
-    padding: 5px;
-    margin: 10px;
-    font-weight: bold;
-    font-size: 2.5em;
-}
-
-.container2 li{
-    margin: 5px;
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
-.container2 img{
-    padding: 0px;
-    border: solid 5px black;
-}
-
-.container2 p{
-    color: #fff;
-    display: flex;
-    margin: 5px;
-    text-align: start;
-    font-size: 1.2em;
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.479);
-    border: #fff solid 5px;
-    font-family: 'Quicksand', sans-serif;
-
-}
-
-.container3{
-    display: flex;
-    flex-direction: column;
-    background-color: #ffcad4;
-}
-
-.container3 h4{
-    margin: 10px;
-    font-family: 'Alkatra', cursive;
-    font-size: 2em;
-    text-align: center;
-}
-
-.container3 p{
-    margin: 5px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.container3 img{
-    padding: 0px;
-    border: solid 5px black;
-}
-
-.container3 h5{
-    padding: 10px;
-    font-size: 1.4em;
-    font-weight: bold;
-    font-family: 'Oswald', sans-serif;
-    background-color: #588157;
-}
 
 .footer{
     display: flex;
