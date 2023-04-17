@@ -568,12 +568,17 @@ header div{
 }
 
 .container13{
+    background-image: url(./img/wallaper\ botanico.jpg);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
     display: flex;
     height: 45vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #ffcad4;
+    color: white;
 }
 
 .container13 h2{
@@ -594,7 +599,7 @@ header div{
     height: 150px;
     padding: 10px;
     margin: 10px;
-    background-color: #fd9dae;
+    background-color: #bb7f8994;
 }
 
 .transporte i{
@@ -610,6 +615,7 @@ header div{
 .transportes span{
     flex-direction: row;
     border: solid 1px #a1636f;
+    color: rgb(255, 255, 255);
 }
 
 
