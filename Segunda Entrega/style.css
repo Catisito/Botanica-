@@ -584,15 +584,19 @@ header div{
         height: 70px;
     }
 
-    .container2{
-        text-align: center;
-        height: 200vh;
+    .container4{
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        height: 84vh;
     }
 
-    .container2 h2{
+    .container_flores{
+        height: 105vh;
+    }
 
+    .container5{
+        height: 650px;
     }
 }
 
