@@ -686,6 +686,26 @@ header div{
     .container{
         max-width: 2000px;
     }
+
+    .footer{
+        
+        flex-direction: row;
+        height: 100px;
+        padding: 0px;
+    }
     
+    .footer span{
+    padding: 20px;
+    }
+    
+    a.icons_footer{
+    padding: 100px;
+    justify-content: center;
+    }
+
+    .icons_footer i{
+        font-size: 40px;
+        margin: 10px;
+    }
 }
 
