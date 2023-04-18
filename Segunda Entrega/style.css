@@ -650,5 +650,20 @@ header div{
     .container13 h2{
     text-align: center;
     }
+
+     a.nav-link{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.3em;
+    }
+    
+    .navbar-collapse{
+        flex-grow: 0;
+    }
+
+    .container{
+        max-width: 2000px;
+    }
+    
 }
 
