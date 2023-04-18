@@ -80,10 +80,32 @@ header div{
 
 .footer{
     display: flex;
-    align-items: baseline;
-    height: 15vh;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
     display: flex;
-    background-color: #0d1a10;
+    background-color: #24472c;
+}
+
+.footer_titulo{
+    font-family: 'DynaPuff', cursive;
+    font-size: 2.2em;
+}
+
+.footer a{
+    font-size: 1em;
+    color: #ccd3ce;
+}
+
+.icons_footer{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    background-color: #24472c;
+}
+
+.footer a:hover{
+    color: #98a19b;
 }
 
 .footer img{
