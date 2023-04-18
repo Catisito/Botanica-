@@ -415,9 +415,6 @@ header div{
     font-size: 1.7em;
 }
 
-
-
-
 .container10 h4{
     font-size: 2em;
 }
@@ -460,7 +457,7 @@ header div{
 
 .container12{
     display: flex;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     margin: 5px;
     margin-top: 40px;
@@ -606,12 +603,33 @@ header div{
     }
 
     .container9{
+        font-size: 1.6em;
         height: 90vh;
     }
 
     .container9 button{
+        font-size: 1em;
         height: 100px;
-        width: 300px;
+        width: 250px;
+    }
+
+    .container11{
+        height: 120vh;
+    }
+
+    .grid_layaout{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .container12{
+    justify-content: baseline;
+    display: flex;
+    height: 120vh;
+    width: 400px;
+    }
+
+    .container12 img{
+    justify-content: baseline;
     }
 }
 
