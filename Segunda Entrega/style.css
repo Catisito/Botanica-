@@ -70,11 +70,6 @@ header div{
 }
 
 
-
-.container h2{
-   
-}
-
 .container h3{
     font-size: 3em;
     font-weight: bold;
@@ -420,16 +415,7 @@ header div{
     font-size: 1.7em;
 }
 
-.container10{
-    font-family: 'Alkatra', cursive;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    height: 23vh;
-    background-color: #da929e;
-}
+
 
 
 .container10 h4{
@@ -617,6 +603,15 @@ header div{
 
     .grid_layaout1{
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .container9{
+        height: 90vh;
+    }
+
+    .container9 button{
+        height: 100px;
+        width: 300px;
     }
 }
 
