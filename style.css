@@ -693,6 +693,10 @@ header div{
     .footer span{
     padding: 20px;
     }
+
+    .icons_footer{
+        display: contents;
+    }
     
     a.icons_footer{
     padding: 100px;
@@ -700,7 +704,7 @@ header div{
     }
 
     .icons_footer i{
-        font-size: 40px;
+        font-size: 30px;
         margin: 10px;
     }
 }
