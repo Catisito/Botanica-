@@ -82,8 +82,6 @@ header div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 30vh;
-    display: flex;
     background-color: #24472c;
 }
 
@@ -687,7 +685,6 @@ header div{
     }
 
     .footer{
-        
         flex-direction: row;
         height: 100px;
         padding: 0px;
